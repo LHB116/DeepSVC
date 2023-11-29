@@ -37,4 +37,4 @@ If our open source codes are helpful for your research, please cite our [paper](
 
 - Download the training data. We train the models on the [Vimeo90k dataset](https://github.com/anchen1011/toflow) ([Download link](http://data.csail.mit.edu/tofu/dataset/vimeo_septuplet.zip)). 
 
-- Run main.py to train the PSNR models,  we first pretrian model with key frame coded with bpg  and lambda=2048. Then load the pretrianed weights, train with key frame coded with key frame coded with AI codecs (in image_model.py). More detail see main.py.
+- Run main.py to train the PSNR/MS-SSIM models. We first pretrian model with key frame coded with bpg and lambda=2048. Then load the pretrianed weights, train with key frame coded with key frame coded with AI codecs (in image_model.py). More detail see main.py.
